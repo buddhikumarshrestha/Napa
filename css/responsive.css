@@ -1,0 +1,767 @@
+@media (min-width: 1400px) and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width:1300px){
+
+}
+@media only screen and (max-width:1250px){
+	.navigation-wrap .navbar-default .navbar-nav>li>a{
+		padding: 0px 14px 0px 0px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:1200px){
+	.navigation-wrap .navbar-default .navbar-nav>li>a{
+		padding: 0px 14px 0px 0px;
+		font-size: 14px;
+	}
+	.navigation-wrap .menu-wrap-inner{
+		width: 86%;
+		left: 9.5%;
+	}
+	.banner-round-box{
+		top: 10%;
+		width: 700px;
+		height: 700px;
+	}
+	.banner-round-box:before{
+		width: 690px;
+		height: 670px;
+	}
+	.event-wrap .event-content .btn-register{
+		width: 70%;
+	}
+	.wrapper.conference-single  .register-btn-wrap .btn-register{
+		width: 70%;
+	}
+	.wrapper.about .btn-submit, .wrapper.contact .btn-submit{
+		width: 100%;
+		padding: 6px 15px;
+		font-size: 16px;
+	}
+	.wrapper.about .registration-wrap .container, 
+	.wrapper.contact .registration-wrap .container{
+		padding: 0 4px;
+
+	}
+	.wrapper.about .registration-wrap .row , 
+	.wrapper.contact .registration-wrap .row{
+		margin: 0 -4px;
+
+	}
+	.wrapper.about .registration-wrap .row [class*='col-'], 
+	.wrapper.contact .registration-wrap .row [class*='col-']{
+		padding: 0 4px;
+
+	}
+	.adoration-wrap .round-img-wrap{
+		width: 370px;
+		height: 370px;
+		margin: 10px auto;
+	}
+	.liturgy-wrap .title-wrap{
+		padding: 50px 0;
+	}
+}
+
+@media only screen and (max-width:992px){
+	.banner-round-box{
+		width: 600px;
+		height: 600px;
+		top: 10%;
+		padding: 18% 24% 20% 10%;
+	}
+	.banner-round-box:before{
+		width: 590px;
+		height: 568px;
+	}
+	.banner-round-box h2{
+		font-size: 30px;
+	}
+	.banner-round-box p{
+		font-size: 25px;
+	}
+	.btn-register{
+		width: 80%;
+		font-size: 18px;
+	}
+	.footer .footer-widget h3{
+		font-size: 15px;
+	}
+	.event-wrap .event-content .btn-register{
+		width: 80%;
+	}
+	.single-description .single-desc-inner h3{
+		font-size: 30px;
+	}
+	.single-description .single-desc-inner p{
+		font-size: 16px;
+	}
+	.wrapper.about .btn-submit, .wrapper.contact .btn-submit{
+		padding: 6px 12px;
+		width: 	100%;
+	}
+	.wrapper.about .about-wrap,
+	.board-member-wrap,
+	.history-wrap,
+	.wrapper.about .registration-wrap, 
+	.wrapper.contact .registration-wrap{
+		padding: 50px 0;
+	}
+	.mission-content,
+	.history-wrap .history-desc p{
+		font-size: 18px;
+	}
+	.about-wrap h2,
+	.history-wrap h2,
+	.board-member-wrap h2,
+	.wrapper.about .registration-wrap h2,
+	.wrapper.contact .registration-wrap h2,
+	.liturgy-wrap .title-wrap h3{
+		font-size: 3rem;
+		letter-spacing: 2px;
+		line-height: 1.137;
+		font-weight: 700;
+		text-transform: uppercase;
+
+	}
+	.history-timeline .timeline-centered .timeline-item:last-child{
+		display: block;
+	}
+	
+
+
+}
+
+
+
+
+@media only screen and (min-width:768px){
+
+}
+
+
+
+
+@media only screen and (max-width:767px){
+	.navbar-toggle .icon-bar {
+		width: 35px;
+		height: 4px;
+		transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		background: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #591b1b;
+	}
+	.navbar .navbar-toggle {
+		border: none;
+		padding: 0;
+		margin: 0px 0px 10px 5%;
+		box-shadow: none;
+		float: none;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background: transparent;
+	}
+	.navbar-toggle.collapsed .icon-bar:nth-child(2) {
+		transform: rotate(0);
+		-moz-ransform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	.navbar-toggle .icon-bar:nth-child(2) {
+		transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform-origin: 10% 90%;
+		-moz-transform-origin: 10% 90%;
+		-ms-transform-origin: 10% 90%;
+		-o-transform-origin: 10% 90%;
+		-webkit-transform-origin: 10% 90%;
+	}
+	.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+		opacity: 1;
+	}
+	.navbar-toggle .icon-bar:nth-child(3) {
+		opacity: 0;
+	}
+	.navbar-toggle.collapsed .icon-bar:nth-child(4) {
+		transform: rotate(0);
+		-moz-ransform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	.navbar-toggle .icon-bar:nth-child(4) {
+		transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform-origin: 25% 90%;
+		-moz-transform-origin: 25% 90%;
+		-ms-transform-origin: 25% 90%;
+		-o-transform-origin: 25% 90%;
+		-webkit-transform-origin: 25% 90%;
+	}
+	.navbar-toggle {
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	.navbar-default .navbar-collapse {
+		margin-top: 0;
+		border-top-width: 0px;
+		background-color: #591b1b;
+		padding: 0px 30px;
+	}
+	.menu-wrap-inner .row [class*='col-']{
+		padding: 0;
+	}
+	.navigation-wrap .navbar-default .navbar-nav {
+		padding: 0;
+	}
+	.navigation-wrap .navbar-default .navbar-nav>li:hover .dropdown-menu, .navigation-wrap .navbar-default .navbar-nav>li:active .dropdown-menu, .navigation-wrap .navbar-default .navbar-nav>li:focus .dropdown-menu {
+		animation: none;
+	}
+	.banner-round-box{
+		width: 400px;
+		height: 400px;
+		top: -5%;
+		padding: 12% 23% 20% 8%;
+	}
+	.banner-round-box:before{
+		width: 390px;
+		height: 383px;
+		top: 9px;
+		left: 13px;
+	}
+	.banner-round-box h2{
+		font-size: 16px;
+	}
+	.banner-round-box p{
+		font-size: 16px;
+	}
+	.btn-register{
+		font-size: 14px;
+		width: 90%;
+	}
+	.navigation-wrap .navbar-header{
+		margin-top: 0px;
+	}
+
+	.navigation-wrap .menu-wrap-inner{
+		width: 100%;
+	}
+	.hightlights-wrap,
+	.vino-wrap{
+		padding: 40px 0px;
+	}
+	.hightlights-wrap h2,
+	.vino-wrap h2{
+		font-size: 20px;
+	}
+	.event-wrap .event-content .btn-register{
+		width: 70%;
+		font-size: 16px;
+	}
+	.more-hightlighets-wrap,
+	.event-more-wrap{
+		padding: 20px 0px;
+	}
+	.event-more-wrap a,
+	.wrap-btn-more-entries .btn-more-entries{
+		font-size: 15px;
+	}
+	.more-hightlighets-wrap .event-more{
+		font-size: 16px;
+	}
+	.event-wrap .event-content h2{
+		font-size: 20px;
+	}
+	.event-wrap .event-content small{
+		font-size: 18px;
+	}
+	.footer .footer-widget h3{
+		font-size: 18px;
+		margin: 15px 0 0;
+	}
+	.footer-logo{
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	.footer-logo p{
+		text-align: right;
+	}
+	.footer{
+		padding: 30px 0px 0px; 
+	}
+	.hightlight-slider{
+		overflow: hidden;
+	}
+	.wrapper.blog .blog-post-content h3{
+		font-size: 22px;
+	}
+	.wrapper.blog .blog-post-content p{
+		font-size: 15px;
+	}
+	.wrapper.blog .recent-entries h3{
+		margin: 20px 0px;
+	}
+	.wrapper.blog  .vino-box{
+		margin: 0 0 40px;
+	}
+	.wrap-btn-more-entries{
+		margin: 20px 0 0;
+	}
+	.wrapper.blog .wrap-btn-more-entries h4{
+		font-size: 18px;
+	}
+	.person-wrap{
+		text-align: center;
+	}
+	.navigation-wrap .navbar-nav>li.dropdown.active .dropdown-menu li{
+		width: 30%;
+	}
+	.navigation-wrap .navbar-nav>li.dropdown.active .dropdown-menu{
+		padding-left: 2.5%;
+	}
+	.single-description .single-desc-inner p{
+		font-size: 14px;
+	}
+	.single-description .single-desc-inner h3{
+		font-size: 25px;
+	}
+	.single-description{
+		margin-top:0px;
+		padding: 40px 0px;
+	}
+	.sidebar .widget h3,.sidebar .widget .article-list ul li .article-content h4{
+		font-size: 18px;
+	}
+	.wrapper.conference  .btn-napa{
+		font-size: 14px;
+	}
+	.wrapper.conference .event-wrap .event-content p{
+		font-size: 20px;
+	}
+	.wrapper.conference  .event-more-wrap a .fa{
+		font-size: 25px;
+	}
+	.wrapper.conference .event-more-wrap{
+		padding: 20px 0px;
+	}
+	.single-register-section{
+		font-size: 16px;
+	}
+	.single-register-section{
+		padding: 40px 0px;
+	}
+	.register-left-wrap{
+		font-size: 17px;
+	}
+	.register-left-wrap p:last-child{
+		font-size: 15px;
+	}
+	.register-right-wrap{
+		text-align: left;
+	}
+	.wrapper.conference-single  .register-btn-wrap .btn-register{
+		width: 90%;
+		margin: 20px auto 0px;
+	}
+	.speakers-wrap h2,.speacial-wrap h2,
+	.wrapper.conference-single .registration-wrap h2{
+		font-size: 20px;
+	}
+	.speakers-wrap,
+	.wrapper.conference-single .registration-wrap{
+		padding: 40px 0px;
+	}
+	.carousel-wrap .slick-prev,
+	.carousel-wrap .slick-next{
+		width: 30px;
+		height: 30px;
+	}
+	.timeline h3{
+		font-size: 16px;
+	}
+	.wrapper.conference-single  .submit-wrap input[type='submit']{
+		font-size: 20px;
+		padding: 9px 40px;
+		width: 100%;
+	}
+	.more-speaker-btn-wrap{
+		font-size: 16px;
+	}
+	.speakers-img{
+		text-align: center;
+	}
+	.hightlight-nav-list ul li{
+		padding: 0px 15px;
+	}
+	.registration-wrap .form-wrap .form-control{
+		font-size: 16px;
+	}
+	.wrapper.conference-single .submit-wrap {
+		padding: 10px 0 0;
+		text-align: center;
+	}
+	.header{
+		position: relative;
+		padding: 0px;
+	}
+	.navigation-wrap .nav>li{
+		position: relative;
+		padding: 10px 0px;
+		border-bottom: 1px solid #591b1b;
+	}
+	.home-banner, .banner-wrap{
+		margin-top: 0px;
+	}
+	.header .navbar-brand{
+		max-width: 90%;
+		float: none;
+		display: inline-block;
+	}
+	.wrapper.conference .header .navbar-brand,
+	.wrapper.blog .header .navbar-brand {
+		max-width: 75%;
+		padding: 15px 0;
+	}
+	.navigation-wrap .navbar-nav>li.dropdown.active .dropdown-menu{
+		padding-left: 0px;
+		position: relative;
+		display: block;
+		box-shadow: none;
+		border: 0;
+	}
+	.navigation-wrap .navbar-nav>li.dropdown.active .dropdown-menu li{
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #591b1b;
+	}
+	.navigation-wrap .dropdown-menu>li>a{
+		padding: 8px 0px;
+	}
+	.banner{
+		padding:0px;
+	}
+	.home-banner, .banner-wrap{
+		height: 400px;
+	}
+	.blog-post-content{
+		padding: 15% 0 0;
+	}
+	.banner .slick-dots{
+		bottom: -40px;
+	}
+	.footer-widget{
+		margin-bottom: 30px;
+	}
+	.navigation-wrap .dropdown-menu:before{
+		border: 0;
+	}
+	.navigation-wrap .navbar-nav>li.dropdown.active .dropdown-menu{
+		background: #fff;
+		margin-top: 13px;
+	}
+	.navigation-wrap .dropdown-menu>li>a{
+		color: rgba(255, 255, 255, 0.7) !important;
+		font-family: 'AGaramond-RegularSC';
+	}
+	.wrapper.conference .event-wrap{
+		margin-top: 0px;
+	}
+	.header.scroll .navbar-brand>img {
+		max-width: 100%;
+	}
+	.wrapper.blog .recent-entries{
+		margin: 0 0 10px;
+	}
+	.wrapper.conference .event-wrap:before{
+		border: 0;
+	}
+	.single-register-section .register-inner{
+		padding: 0;
+	}
+	.speacial-wrap{
+		padding: 40px 0px;
+	}
+	#mobile-social-media{
+		display: inline-block;
+	}
+	#desktop-social-media{
+		display: none;
+	}
+	.social-media{
+		margin: 0px 0 15px;
+	}
+	.social-media ul li a{
+		color:rgba(255, 255, 255, 0.7); 
+	}
+	.navigation-wrap .nav>li.dropdown .dropdown-menu{
+		display: block;
+		position: relative;
+		width: 100%;
+		border: 0;
+		box-shadow: none;
+		background: transparent;
+		color: #fff;
+		padding: 0 0 15px;
+	}
+	.navigation-wrap .navbar-default .navbar-nav>li>a{
+		color: #ffffff;
+	}
+	.navigation-wrap .navbar-default .navbar-nav>li.active>a, .navigation-wrap .navbar-default .navbar-nav>li>a:hover, .navigation-wrap .navbar-default .navbar-nav>li>a:focus, .navigation-wrap .navbar-default .navbar-nav>li>a:active{
+		color: #000;
+	}
+	.hamburger-text{
+		display: inline-block !important;
+		vertical-align: top;
+		font-family: 'AGaramond-SemiboldSC';
+		font-size: 16px;
+		text-transform: uppercase;
+		padding-left: 10px;
+		letter-spacing: 3px;
+		color: #591b1b;
+
+	}
+	.wrapper.blog .social-media{
+		text-align: left;
+	}
+	.wrapper.blog .recent-entries  .category-list select{
+		margin: 0 0 15px;
+	}
+	.wrapper.about .about-wrap,
+	.wrapper.contact .contact-wrap{
+		margin: 0px;
+	}
+	.about-wrap h2,
+	.history-wrap h2,
+	.board-member-wrap h2,
+	.wrapper.about .registration-wrap h2,
+	.wrapper.contact .registration-wrap h2,
+	.liturgy-wrap .title-wrap h3,
+	.adoration-wrap h2,
+	.speaker-main-wrap h2.title{
+		font-size: 2rem;
+		letter-spacing: 2px;
+		line-height: 1.137;
+		font-weight: 700;
+		text-transform: uppercase;
+
+	}
+	.mission-content h3{
+		font-size: 22px;
+		padding: 10px 0 0;
+	}
+	.board-member-inner .slick-next{
+		right: 20px;
+	}
+	.mission-content,
+	.history-wrap .history-desc p{
+		font-size: 16px;
+	}
+	.vision-btn-wrap a span,
+	.history-timeline .more-history-wrap span,
+	.more-speacker-wrap a span{
+		font-size: 18px;
+	}
+	.vision-btn-wrap{
+		margin: 20px 0 0;
+	}
+
+	.board-member-inner .slick-prev{
+		left: 20px;
+		z-index: 9999;
+	}
+	.wrapper.about .about-wrap,
+	.board-member-wrap,
+	.history-wrap,
+	.wrapper.about .registration-wrap, 
+	.wrapper.contact .registration-wrap,
+	.more-speacker-wrap,
+	.adoration-wrap{
+		padding: 40px 0;
+	}
+	.about-wrap-inner,.history-inner,.history-timeline,
+	.section-margin{
+		margin: 0;
+	}
+	.history-wrap .history-desc{
+		padding: 20px 0 0;
+	}
+	.wrapper.about .registration-wrap .form-wrap .form-control, .wrapper.contact .registration-wrap .form-wrap .form-control{
+		font-size: 15px;
+	}
+	.history-timeline .timeline-centered > .timeline-item:nth-child(odd) .timeline-info{
+		font-size: 20px;
+	}
+	.contact-left-inner ul li a span{
+		font-size: 16px;
+	}
+	.contact-right-inner h2{
+		font-size: 20px;
+		margin: 0 0 20px;
+	}
+	.contact-right-inner .form-group{
+		margin-bottom: 15px;
+	}
+	.contact-left-inner ul li{
+		margin-bottom: 15px;
+	}
+	.contact-left-inner{
+		padding: 25% 0 10% 0%;
+	}
+	.wrapper.about .form-wrap, .wrapper.contact .form-wrap {
+		margin: 30px auto 0;
+		max-width: 80%;
+	}
+	.wrapper.conference  .btn-napa{
+		padding: 15px 20px;
+		width: 100%;
+	}
+	.experiece-wrap.second .row [class*='col-']{
+		float: none;
+	}
+	.experiece-wrap .experience-desc h3{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	.experiece-wrap .experience-desc{
+		font-size: 16px;
+	}
+	.experiece-wrap .experience-desc-inner,
+	.experiece-wrap.second .experience-desc-inner{
+		padding: 10% 15%;
+	}
+	.liturgy-wrap .title-wrap{
+		padding: 40px 0;
+	}
+	.adoration-wrap .round-img-wrap{
+		width: 300px;
+		height: 300px;
+		margin: 10px auto;
+	}
+	.liturgy-content .liturgy-wrap h3{
+		font-size: 30px;
+	}
+	.liturgy-content .liturgy-wrap{
+		font-size: 16px;
+		max-width: 60%;
+		margin: 20px auto;
+		padding: 2% 0 0;
+	}
+	.liturgy-slider-mainwrap .slider-wrap, .liturgy-slider-wrap{
+		height: 300px;
+	}
+	.liturgy-slider-mainwrap .slick-prev{
+		left: 10px;
+	}
+	.liturgy-slider-mainwrap .slick-next{
+		right: 10px;
+	}
+	.adoration-wrap .adoration-desc{
+		padding: 0;
+		font-size: 16px;
+		
+	}
+	.adoration-wrap .adoration-desc p{
+		margin-bottom: 15px;
+	}
+	.adoration-wrap h2{
+		margin: 0 0 20px;
+	}
+	.wrapper.conference-single .registration-wrap h2{
+		margin-bottom: 20px;
+	}
+	.speaker-list ul li{
+		width: 50%;
+	}
+	.speaker-main-wrap .recent-entries{
+		padding: 0px;
+	}
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:480px){
+	.banner-round-box p small{
+		font-size: 12px;
+	}
+	.banner-round-box{
+		width: 350px;
+		height: 350px;
+		padding: 16% 23% 20% 8%;
+		top: 2%;
+	}
+	.banner-round-box:before{
+		width: 320px;
+		height: 320px;
+		top: 16px;
+		left: 13px;
+
+	}
+	.event-wrap .event-content .btn-register{
+		width: 100%;
+	}
+	.wrapper.conference .event-wrap {
+		padding-bottom: 10px;
+	}
+
+	.header .navbar-brand {
+		max-width: 60%;
+		padding: 20px 0;
+	}
+	.navbar .navbar-toggle{
+		margin: 0px 0px 15px 27px;
+	}
+	.navigation-wrap .dropdown-menu>li>a{
+		padding: 6px 0;
+		font-size: 12px;
+	}
+	.about-wrap h2,
+	.history-wrap h2,
+	.board-member-wrap h2,
+	.wrapper.about .registration-wrap h2,
+	.wrapper.contact .registration-wrap h2,
+	.liturgy-wrap .title-wrap h3{
+		font-size: 1.375rem;
+		letter-spacing: 2px;
+		line-height: 1.137;
+		font-weight: 700;
+		text-transform: uppercase;
+
+	}
+	.banner-round-box .btn-register {
+		font-size: 14px;
+		width: 75%;
+		padding: 15px 8px;
+	}
+	.adoration-wrap .round-img-wrap{
+		width: 200px;
+		height: 200px;
+		margin: 10px auto;
+	}
+	.speaker-list ul li{
+		width: 100%;
+	}
+
+
+
+}
